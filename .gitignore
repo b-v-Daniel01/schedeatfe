@@ -1,0 +1,47 @@
+# Dipendenze Node.js
+# [cite_start]Ignora la cartella dei pacchetti scaricati [cite: 2]
+node_modules/
+
+# File di log di Node.js e package manager
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Output di build
+# Ignora le cartelle con il codice compilato per la produzione
+dist/
+build/
+out/
+
+# File di cache di TypeScript
+*.tsbuildinfo
+
+# Cache di Vite
+# [cite_start]Ignora le cartelle di cache di Vite [cite: 2]
+.vite/
+.vite-temp/
+
+# File di ambiente locali
+# Contengono chiavi segrete, non vanno mai condivisi
+.env
+.env.local
+.env.*.local
+
+# Cartelle e file dell'Editor e IDE
+# [cite_start]Ignora le impostazioni specifiche dell'IDE [cite: 2]
+.idea/
+.vscode/
+*.iml
+
+# Report di Code Coverage
+coverage/
+
+# File di sistema specifici dell'OS
+.DS_Store
+Thumbs.db
+
+# Cartelle temporanee
+temp/
+tmp/
