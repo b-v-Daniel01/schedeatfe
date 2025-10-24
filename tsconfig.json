@@ -12,6 +12,7 @@
       "@services/*": ["services/*"],
       "@stores/*": ["stores/*"],
       "@types/*": ["types/*"],
+      "@languagelocales/*": ["languagelocales/*"],
       "@utils/*": ["utils/*"]
     }
   }

@@ -35,6 +35,7 @@
       "@stores/*": ["stores/*"],
       "@types/*": ["types/*"],
       "@utils/*": ["utils/*"],
+      "@languagelocales/*": ["languagelocales/*"],
       "@enums/*": ["types/enums/*"]
     }
   },
